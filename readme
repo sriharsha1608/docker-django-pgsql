@@ -1,0 +1,20 @@
+Creating container with Django and postgressql
+
+and giving sql connection to django
+
+
+commands
+docker-compose run django django-admin startproject core .
+
+docker-compose up
+
+docker-compose down
+
+to view running things
+docker ps 
+
+to enter into django bash
+docker exec -it django bash
+
+to enter into postgres 
+docker exec -it pgdb psql -U postgres 
